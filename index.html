@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCreations</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 6px solid #ff5722;
+        }
+        nav {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff5722;
+        }
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        .service {
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+            margin: 0 10px 20px;
+            background: #333;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+            border-top: 6px solid #ff5722;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+        footer a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Responsive Styling */
+        @media only screen and (max-width: 768px) {
+            .service {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            header {
+                padding: 30px 0;
+            }
+            nav {
+                padding: 10px 0;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+            .container {
+                padding: 10px;
+            }
+            .service {
+                flex-basis: calc(100% - 20px);
+            }
+            footer {
+                padding: 30px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PCreations</h1>
+        <p>Your Partner in Digital Solutions</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        
+    </nav>
+    <div class="container">
+        <h2>Welcome to PCreations</h2>
+        <p>At PCreations, we're dedicated to bringing your digital vision to life. Whether you're an individual, a small business, or a corporation, our team of experts is here to provide you with personalized websites and social media solutions tailored to your needs.</p>
+        <div class="services">
+            <div class="service">
+                <h3>Personalized Websites</h3>
+                <p>Our talented web designers will work closely with you to create a stunning and functional website that perfectly represents your brand.</p>
+            </div>
+            <div class="service">
+                <h3>Social Media Engagement</h3>
+                <p>Increase your online presence and connect with your audience like never before with our social media engagement services. From content creation to community management, we've got you covered.</p>
+            </div>
+        </div>
+        <p>Ready to take your digital presence to the next level? Contact us today to discuss your project and receive a free consultation.</p>
+    </div>
+    <footer>
+        <p>Contact Information</p>
+        
+        <a href="https://www.instagram.com/the_pcreations_/" target="_blank">Instagram</a>
+        
+        <p>&copy; 2024 PCreations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
